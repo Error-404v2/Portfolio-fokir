@@ -1,0 +1,394 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+button {
+    background-color: #ff305b;
+    color: white;
+    padding: 10px 20px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 13;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0px;
+}
+
+.title-underline {
+    margin-bottom: 30px;
+}
+
+.title-underline hr {
+    width: 10%;
+    margin: 4px auto;
+    border: none;
+    height: 1px;
+    background: #ff305b;
+}
+
+.title-underline .longer {
+    width: 20%;
+}
+
+/* start-the landing page */
+
+.landing {
+    background-image: url("../img/slider/slider-01.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+/* start-the navbar */
+
+.nav-bar {
+    width: 100%;
+    padding: 10px 0px;
+    font-family: Roboto, sans-serif;
+}
+
+.margin80 {
+    width: 75%;
+    margin: auto;
+}
+
+.logo {
+    color: #ff305b;
+    font-size: 24px;
+    font-weight: 800;
+    float: left;
+}
+
+.nav-bar .margin80 ul {
+    float: right;
+    list-style: none;
+    margin: 0px;
+}
+
+.nav-bar .margin80 ul li {
+    float: left;
+    margin: 0px 10px;
+}
+
+.nav-bar .margin80 ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* end-the navbar */
+
+.landing-center {
+    text-align: center;
+    color: white;
+    position: absolute;
+    font-size: 24px;
+    font-weight: 600;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.landing-center p {
+    margin: 0px;
+}
+
+.bottom {
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.landing-center h1 {
+    font-size: 70px;
+    font-weight: 700;
+    margin: 0px;
+    color: #ff305b;
+}
+
+/* end-the landing page */
+
+/* start-profile segment */
+
+.profile {
+    padding: 100px 0px;
+}
+
+/* start-right side profile text */
+
+.right-text h3 {
+    font-size: 34px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin: 0px;
+}
+
+.right-text h3 span {
+    color: #ff305b;
+}
+
+.right-text p {
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    color: #555;
+}
+
+.right-text ul {
+    list-style: none;
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+.right-text ul li {
+    float: left;
+    width: 50%;
+    padding-bottom: 15px;
+}
+
+.right-text hr {
+    border-top: dashed 1px;
+}
+
+.leftCol-profile-text {
+    float: left;
+    width: 50%;
+}
+
+.rightCol-profile-text {
+    float: right;
+    width: 50%;
+}
+
+
+.right-text {
+    float: right;
+    width: 51%;
+}
+
+/* end-right side profile text */
+
+/* start-left side profile photo */
+
+.left-photo {
+    float: left;
+    width: 49%;
+    text-align: center;
+}
+
+.left-photo .photo-border {
+    border: 8px black inset;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+.photo-border img {
+    transform: translate(10px, 20px);
+    width: 100%;
+}
+
+/* end-left side profile photo */
+
+/* end-profile segment */
+
+.services {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+
+.services-type span {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 1%;
+}
+
+.services-all .single-service {
+    width: 25%;
+    padding: 0px 2%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.portfolio {
+    text-align: center;
+    padding: 50px 00px;
+}
+
+.portfolio-types {
+    margin: 20px 0px;
+}
+
+.portfolio-types span {
+    padding: 5px;
+}
+
+.portfolio .margin80 .products img {
+    box-sizing: border-box;
+    width: 30%;
+}
+
+.portfolio .margin80 .products .img-middle {
+    margin: 0px 4%;
+    box-sizing: border-box;
+    width: 30%;
+}
+
+.stats {
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.single-stat {
+    width: 25%;
+    float: left;
+}
+
+.single-stat h4 {
+    font-size: 26px;
+    font-weight: 900;
+    margin: 0px;
+}
+
+.single-stat p {
+    font-size: 20px;
+    font-weight: 900;
+    margin: 0px;
+    color: #333;
+}
+
+.feedback {
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.feedback .testmonial {
+    width: 70%;
+    margin: auto;
+    padding: 50px 30px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.testmonial .client-photo {
+    width: 20%;
+    float: left;
+}
+
+.client-photo img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.client-text {
+    width: 80%;
+    float: right;
+    padding: 0px 30px;
+    box-sizing: border-box;
+}
+
+.client-text h3 {
+    margin: 0px;
+    margin-bottom: 5px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.location span {
+    font-size: 15px;
+    font-weight: 600;
+    color: #777;
+}
+
+.single-testimonial {
+    font-size: 15px;
+    font-weight: 600;
+    font-style: italic;
+    color: #555;
+}
+
+.blog {
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.video_wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.single-blog {
+    width: 33.33%;
+    float: left;
+    text-align: left;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+.single-blog img {
+    width: 100%;
+}
+
+.single-blog-text {
+    width: 95%;
+    margin: auto;
+}
+
+.contact {
+    text-align: center;
+    padding: 40px 10px;
+}
+
+.contact button {
+    text-align: left;
+}
+
+.contact-center {
+    width: 50%;
+    margin: 10px auto;
+}
+
+.contact-center input {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0px;
+}
+
+.contact-center textarea {
+    width: 100%;
+}
+
+.name-contact input {
+    width: 46.9%;
+}
+
+.middle {
+    width: 5%;
+    height: 5px;
+    display: inline-block;
+}
+
+.end-footer {
+    text-align: center;
+    background-color: #333;
+    padding: 50px 0px 20px;
+}
+
+.cls {
+    clear: both;
+}
